@@ -131,6 +131,39 @@ width: 80px;
   z-index: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media screen and (max-width:800px){
+ .contact-box{
+  top: 18%;
+  width: 100%;
+ } 
+ .contact-form{
+  text-align: center;
+  align-items: center;
+z-index: 0;
+margin-top: 5%;
+ }
+ #form-control{
+  width: 300px;
+  background: #fff;
+  border: none;
+  outline: none;
+  font-size: 11px;
+  padding: 8px 3px 8px 3px;
+  border-bottom: 1px solid black;
+  margin-bottom: 16px;
+}
+#form-control-submit{
+  background: #00D646;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  width: 50px;
+  text-transform: uppercase;
+}
+}
 .contact-title{
   color: #fff;
   font-family: "montserrat",sans-serif;
