@@ -155,12 +155,12 @@ margin-top: 5%;
 #form-control-submit{
   background: #00D646;
   color: #fff;
-  cursor: pointer;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-top: 10px;
-  width: 50px;
+  width: 70px;
+  padding: 8px 3px;
   text-transform: uppercase;
 }
 }
