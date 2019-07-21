@@ -136,6 +136,9 @@ width: 80px;
   top: 18%;
   width: 100%;
  } 
+ .section{
+  height: 700px;
+ }
  .contact-form{
   text-align: center;
   align-items: center;
@@ -155,12 +158,12 @@ margin-top: 5%;
 #form-control-submit{
   background: #00D646;
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-top: 10px;
-  width: 70px;
-  padding: 8px 3px;
+  width: 50px;
+  padding:  8px 3px;
   text-transform: uppercase;
 }
 }
@@ -197,7 +200,7 @@ margin-top: 5%;
   border: none;
   outline: none;
   font-size: 16px;
-    padding: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
   border-bottom: 1px solid black;
   margin-bottom: 16px;
 }
@@ -215,6 +218,7 @@ form .submit{
 form .submit:hover{
   background: #6F7A8A;
 }
+
 
 footer{
   background: #6F7A8A;
@@ -267,4 +271,38 @@ footer{
 }
 .footer-details p{
   color: #333B50;
+}
+
+.contact-social{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: center;
+  align-items: center;
+}
+.contact-social ul li {
+  display: inline-block;
+}
+.contact-social ul li{
+  padding-left: 15px;
+}
+.contact-social ul li a{
+  color: #fff;
+}
+#linkedin:hover{
+  color: #0077B5;
+}
+#twitter:hover{
+  color: #00acee;
+}
+#facebook:hover{
+  color: #3b5998;
+}
+#github:hover{
+  color: #000;
+}
+#codepen:hover{
+  color: #000;
+}
+#dribble:hover{
+  color: #ea4c89;
 }
