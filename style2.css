@@ -215,3 +215,56 @@ form .submit{
 form .submit:hover{
   background: #6F7A8A;
 }
+
+footer{
+  background: #808080;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+.footer-social{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-social ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.footer-social ul li{
+  display: inline-block;
+  margin: 30px 10px;
+}
+.footer-menu{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-menu ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.footer-menu ul li{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.footer-menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-menu ul li a:hover{
+  color: #00D646;
+}
+.footer-details{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-details p{
+  color: #333B50;
+}
