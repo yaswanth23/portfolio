@@ -98,13 +98,6 @@ width: 80px;
   #chk:checked ~ .menu{
     right: 0;
   }
-  .section{
-        height: 600px;
-      background-image: url('ap1.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  }
 }
 .section{
   width: 100%;
