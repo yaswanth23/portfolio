@@ -94,7 +94,15 @@ function erase() {
             <p>Natural Weather Background</p>
             <span class="comma1">#html &nbsp;&nbsp; #css &nbsp;&nbsp; #sass &nbsp;&nbsp; #jquery &nbsp;&nbsp; #javascript</span>
             <p>Natural weather background is a UI design which can be used in weather applications, instead of sticking to a fixed background, to make it look user sited, i have added cloud animation for both sunny and cloudy weather conditions and rain animation using javascript.</p>
-            <a href="https://github.com/yaswanth23/drwaing-scenery-using-html-and-css">Visit source code →</a>
+            <a href="https://codepen.io/yashvant23/pen/YorZMq">Visit source code →</a>
+            <a href="https://codepen.io/yashvant23/full/YorZMq">Visit website →</a>
+          </div>
+          <hr class="hr1">
+          <div class="webpro4">
+            <p>Product card and JS functions</p>
+            <span class="comma1">#html &nbsp;&nbsp; #css &nbsp;&nbsp; #jquery &nbsp;&nbsp; #javascript</span>
+            <p>UI design of product card and few js functions including map locations.</p>
+            <a href="https://jsfunctions.000webhostapp.com/index.html">Visit website →</a>
           </div>
           <hr class="hr1">
           <div class="webpro3">
@@ -103,9 +111,138 @@ function erase() {
             <p>Online Doctor Consulting is a UI design of landing page of Doctor Consulting.</p>
             <a href="https://github.com/yaswanth23/online-Doctor-consultancy-home-page">Visit source code →</a>
           </div>
-        </div>
-         
-       </div>
+          <h1>UI/UX Designs</h1>
 
+
+          <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                 <img src="teslaconcept.png" style="width:100%">
+              <div class="text" style="color: #fff">Tesla Concept</div>
+              </div>
+              <div class="mySlides fade">
+                 <img src="bikes.png" style="width:100%">
+              <div class="text" style="color: #000">Online Bike store</div>
+              </div>
+<div class="mySlides fade">
+  <img src="weather.png" style="width:100%">
+  <div class="text">Weather-UI</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="people.png" style="width:100%">
+  <div class="text" style="color: #000">People Illustration</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="office.png" style="width:100%">
+  <div class="text" style="color: #000">Office Illustration</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="webstore.png" style="width:100%">
+  <div class="text" style="color: #fff">Online shopping Landing page [web]</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="iphone.png" style="width:100%">
+  <div class="text" style="color: #fff">Product card [iphone]</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="applewatch.png" style="width:100%">
+  <div class="text" style="color: #fff">Product card [Apple-watch]</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+<script type="text/javascript">
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+       <h1 style="padding-top: 5%; padding-bottom: 3%;">Projects</h1>
+          <div class="webpro5">
+            <p>Involving Several users Privacy risk in Social-Networks</p>
+            <span class="comma1">#html &nbsp;&nbsp; #css &nbsp;&nbsp; #javascript &nbsp;&nbsp; #java &nbsp;&nbsp; #J2EE &nbsp;&nbsp; #MySQL</span>
+            <p>The Objective was to make sure that every user’s data is protected from others doing faulty stuff. The user is notified<br>when someone tries to view their profile and photograph’s.</p>
+            <a href="https://github.com/yaswanth23/involving-several-users-privacy-risk-in-social-networks">Visit source code →</a>
+          </div>
+          <hr class="hr1">
+          <div class="webpro5">
+            <p>Calculating Effective Product Marketing on E-Commerce<br>Applications Based on Customer Reviews using BIGDATA</p>
+            <span class="comma1">#hadoop &nbsp;&nbsp; #hive &nbsp;&nbsp; #sqoop &nbsp;&nbsp; #HDFS &nbsp;&nbsp; #pig &nbsp;&nbsp; #R studio</span>
+            <p>The Objective was to consider online reviews of any product, based on the customer reviews of products, it is possible<br>to determine their lifetime, sales and that impacts the ability to be maintained at a certain rate or level of product in the market.</p>
+            <a href="https://drive.google.com/open?id=18xG4jRTwIwx2fIHBEfhoAZNKyGRx18FN">Download or View research paper →</a>
+          </div>
+          <hr class="hr1">
+          <div class="webpro6">
+            <p>Analyse user behaviour & optimise the user workflow<br>using a machine learning algorithm <span class="comma" style="font-size: 15px;">Work in process</span></p>
+            <span class="comma1">#html&css &nbsp;&nbsp; #javascript &nbsp;&nbsp; #bootstrap &nbsp;&nbsp; #python &nbsp;&nbsp; #Google analytics</span>
+            <p>E‐commerce has resulted in organizations investing significant resources in online strategies to extend business<br>processes on to the World Wide Web. Traditional methods of measuring Web usage fall short of the richness of<br>data required for the effective evaluation of such strategies. Web analytics is an approach that may meet<br>organizational demand for effective evaluation of online strategies.</p>
+          </div>
+        </div>
+       </div>
+<footer>
+  <div class="footer-logo">
+    <h2 class="logo">Y</h2><img class="logoimg" src="logo.png">
+  </div>
+  <div class="contact-social">
+            <ul>
+            <li><a id="linkedin" href="https://www.linkedin.com/in/yaswanth-k-6ba513111/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+            <li><a id="twitter" href="https://twitter.com/yashvant23" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+            <li><a id="facebook" href="https://www.facebook.com/yaswanth.harsha.54"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li><a id="codepen" href="https://codepen.io/yashvant23/" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a></li>
+            <li><a id="github" href="https://github.com/yaswanth23?tab=repositories" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            <li><a id="dribble" href="https://dribbble.com/yaashvant23" target="_blank"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+            <div class="footer-menu">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="works.html" style="color: #00D646">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="footer-details">
+    <p>CONTACT: yaswanth.k23@gmail.com  | &copy; 2019</p>
+  </div>
+</footer>
   </body>
 </html>
