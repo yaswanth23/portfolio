@@ -149,13 +149,20 @@ width: 80px;
  @media screen and (max-width:800px){
   .caption{
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform:translate(-50%,-50%);
   color:#fff;
   text-align:center;
   }
   #demo{
   font-size: 21px;
+}
+   .section{
+  height: 800px;
+  background-image: url('bk7.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 .brand {
    font-weight:700;
