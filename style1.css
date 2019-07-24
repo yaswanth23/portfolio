@@ -157,7 +157,14 @@ width: 80px;
   #demo{
   font-size: 21px;
 }
- 
+   .section{
+  height: 750px;
+     width:100%;
+  background-image: url('bk10.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 .brand {
    font-weight:700;
    border-radius:25px;
